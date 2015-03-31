@@ -1,6 +1,8 @@
-Jinja2==2.7.1
-MarkupSafe==0.18
-ipython==1.1.0
-pyzmq==13.1.0
-tornado==3.1.1
-wsgiref==0.1.2
+pyzmq
+jinja2
+tornado
+mistune
+jsonschema
+pygments
+terminado
+ipython
