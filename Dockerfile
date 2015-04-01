@@ -2,7 +2,7 @@ FROM jupyter/demo
 
 USER root
 
-RUN apt-get install -y r-cran-rjava
+RUN apt-get install -y r-cran-rjava libgdal1-dev libproj-dev
 
 COPY . /home/jovyan/data
 RUN rm /home/jovyan/data/Dockerfile
