@@ -1,4 +1,4 @@
-FROM jupyter/minimal
+FROM jupyter/demo
 
 USER root
 COPY . /home/jovyan/data
