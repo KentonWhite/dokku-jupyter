@@ -5,6 +5,7 @@ COPY . /home/jovyan/data
 RUN rm /home/jovyan/data/Dockerfile
 RUN mkdir lib
 RUN mkdir lib/R
+RUN rm /home/jovyan/.Renviron
 RUN echo 'R_LIBS_USER=/home/jovyan/lib/R:/home/jovyan/.R:/usr/lib/R/site-library' > /home/jovyan/.Renviron
 WORKDIR /home/jovyan/notebooks
 
